@@ -1,0 +1,56 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Notebook / Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---- Experiment artefacts ----
+# Trained checkpoints can be very large (often > 100 MB which is GitHub's hard limit).
+# Do NOT commit them — share via Drive / Zenodo / Hugging Face instead.
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Optuna study files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and outputs
+runs/
+logs/
+outputs/
+results/
+wandb/
+
+# ---- Data ----
+# Never commit raw medical images. Provide download instructions instead.
+data/
+dataset/
+Segmentacao/
+Segmentacao2/
+REFUGE/
+REFUGE2/
+
+# ---- Misc ----
+*.log
+*.tmp
+*.cache
