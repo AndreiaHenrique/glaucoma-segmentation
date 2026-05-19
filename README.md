@@ -50,9 +50,7 @@ The architecture wrappers (`upernet_optuna.py`, `manet_optuna.py`, `dpt_optuna.p
 │   ├── manet_optuna.py      # MAnet   wrapper
 │   ├── dpt_optuna.py        # DPT     wrapper
 │   └── test_refuge.py       # zero-shot evaluation on REFUGE (Oracle crop)
-    └── predict_masks.py     # making annotation for datasets
-├── paper/
-│   └── Comparative_Evaluation_DL_Glaucoma.pdf
+|   └── predict_masks.py     # making annotation for datasets
 └── docs/
     ├── VSCODE_RUN_GUIDE.md      # steps to run in vscode
 ```
@@ -128,7 +126,7 @@ A GPU with **≥ 8 GB VRAM** is recommended.
 
 > **Note.** The numbers reported in the paper were obtained with the original Colab
 > notebooks. After the refactor, the pipeline was harmonised across the three
-> architectures to remove minor inconsistencies (see `docs/REVIEW_REPORT.md`).
+> architectures to remove minor inconsistencies.
 > Re-running the scripts on the same data should reproduce the results up to small
 > stochastic variation typical of deep learning experiments.
 
