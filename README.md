@@ -1,7 +1,5 @@
 # Comparative Evaluation of Deep Learning Architectures for Glaucoma Screening
 
-This repository accompanies the paper **"Comparative Evaluation of Deep Learning Architectures for Glaucoma Screening: From Internal Accuracy to Cross-Domain"** by *Andreia Henrique*.
-
 Three semantic-segmentation architectures are compared on optic cup / optic disc segmentation in colour fundus images:
 
 | Architecture | Encoder backbone | Library |
