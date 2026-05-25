@@ -164,21 +164,6 @@ CDR MAE on REFUGE: **0.0752**.
 NEW_IMG_DIR=./data/my_dataset python src/predict_masks.py
 # Windows PowerShell
 $env:NEW_IMG_DIR="./data/my_dataset"; python src/predict_masks.py
-
-## 7. Citation
-
-```bibtex
-@misc{henrique2025glaucoma,
-  author       = {Andreia Henrique},
-  title        = {Comparative Evaluation of Deep Learning Architectures for
-                  Glaucoma Screening: From Internal Accuracy to Cross-Domain},
-  year         = {2025},
-  howpublished = {\url{https://github.com/<your-user>/<your-repo>}}
-}
-```
-
----
-
 ## 8. License
 
 Released under the [MIT License](LICENSE).
