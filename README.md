@@ -42,6 +42,7 @@ The architecture wrappers (`upernet_optuna.py`, `manet_optuna.py`, `dpt_optuna.p
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
+|── dataset                  # Dataset for annotation
 ├── src/
 │   ├── pipeline.py          # shared training / evaluation pipeline
 │   ├── upernet_optuna.py    # UPerNet wrapper (only `build_model`)
