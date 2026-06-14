@@ -44,7 +44,6 @@ wandb/
 # ---- Data ----
 # Never commit raw medical images. Provide download instructions instead.
 data/
-dataset/
 Segmentacao/
 Segmentacao2/
 REFUGE/
